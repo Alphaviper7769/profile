@@ -8,6 +8,8 @@ import nextjs from "../nextjs.png";
 import graphql from "../graphql.png";
 import github from "../github.png";
 import tailwind from "../tailwind.png";
+import cpp from "../cpp.png";
+import python from "../python.webp"
 
 const Experience = () => {
   const techs = [
@@ -49,15 +51,21 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: cpp,
+      title: "C/C++",
+      style: "shadow-[#0B4A9C]",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: python,
+      title: "Python",
+      style: "shadow-[#FFD94C]",
     },
   ];
 

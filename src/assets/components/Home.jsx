@@ -24,10 +24,10 @@ const Home = () => {
             }}
           />
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur in
-            quis, odio sed vitae nesciunt nisi necessitatibus eum corrupti
-            voluptatum, doloremque a natus, ullam numquam error quasi modi
-            similique asperiores!
+          Hi, I'm Aayush Raturi, Btech 2nd year undergrad in Computer Science
+          Engineering, BIT Mesra. My interest lies in programming, problem
+          solving, developing stuff, learning and exploring new technologies.
+          I'm a Full Stack Developer inclined towards Back-end development.
           </p>
 
           <div>
