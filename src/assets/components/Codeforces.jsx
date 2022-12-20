@@ -28,12 +28,15 @@ const Codeforces = () => {
         </p>
 
         <br />
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolore
-          rerum illo, veritatis aliquam maiores et, nisi consequatur quaerat
-          dignissimos non quam vitae repellat fugiat animi soluta? Quod, rerum
-          facere!
-        </p>
+        <div className="">
+          <form>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
     </div>
   );

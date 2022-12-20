@@ -18,6 +18,21 @@ const About = () => {
           solving, developing stuff, learning and exploring new technologies.
           I'm a Full Stack Developer inclined towards Back-end development.
         </p>
+        <br />
+        <p className="text-xl mt-10">
+          I have a decent exposure to web dev and i have done projects on both
+          the front end and back end. I am comfortable with nextjs and reactjs.
+          I primarily use the MERN Stack
+        </p>
+        <br />
+        <p className="text-xl mt-10">
+          I have also done app development using the Flutter framework. I am
+          also familiar with the Swift framework but am not too comfortable with
+          it.
+        </p>
+        <p className="text-xl mt-10">
+          I am interested in web3, blockchain and web penetration and always inquizitive to learn about any new tech
+        </p>
       </div>
     </div>
   );

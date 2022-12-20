@@ -9,7 +9,8 @@ import graphql from "../graphql.png";
 import github from "../github.png";
 import tailwind from "../tailwind.png";
 import cpp from "../cpp.png";
-import python from "../python.webp"
+import python from "../python.webp";
+import java from "../java.png"
 
 const Experience = () => {
   const techs = [
@@ -45,34 +46,34 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
       src: cpp,
       title: "C/C++",
       style: "shadow-[#0B4A9C]",
     },
     {
-      id: 8,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 8,
       src: python,
       title: "Python",
       style: "shadow-[#FFD94C]",
     },
+    {
+      id: 9,
+      src: java,
+      title: "Java",
+      style: "shadow-[#F26500]",
+    },
   ];
-
+  
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-black to-gray-800 w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

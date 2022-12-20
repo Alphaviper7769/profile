@@ -15,7 +15,6 @@ function App() {
        <SocialLinks />
        <About />
        <Portfolio />
-       <Codeforces />
        <Experience />
        <Contact />
     </div>
